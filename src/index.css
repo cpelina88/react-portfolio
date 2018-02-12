@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgb(39, 39, 39);
+}
+span {
+  padding-right: 50px;
+  /* background-color: rgb(13, 168, 240); */
+}
