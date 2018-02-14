@@ -20,9 +20,8 @@ class Home extends Component {
       <div className="container">
         <div className="row">
           <div className="col-md">
-            {<img src={computer} className="img-fluid"/>}
           </div>
-          <div className="col-md" className="text-white">
+          <div className="col-md text-white">
             <h1>Cameron Pelina</h1>
             <h4>Junior Web Developer</h4>
             
