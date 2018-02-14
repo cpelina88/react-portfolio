@@ -17,28 +17,34 @@ class NavBar extends Component {
     return (
       <div>
         <div className="navbar" className="text-white text-center"
-        style={{padding: '50px 0px'}}>
+        style={{padding: '50px 0px 30px'}}>
           <p className="navbar-brand">
-            <ReactRevealText show={this.state.show}
-            style={{color: 'rgb(13, 168, 240)', fontSize: "18px", lineHeight: "36px"}}
-            className="d-inline-block">
-            C
-            </ReactRevealText>
-            <ReactRevealText show={this.state.show}
-            style={{color: "white", fontSize: "18px", lineHeight: "36px"}}
-            className="d-inline-block">
-            AMERON 
-            </ReactRevealText>
-            <ReactRevealText show={this.state.show}
-            style={{color: 'rgb(13, 168, 240)', fontSize: "18px", lineHeight: "36px"}}
-            className="d-inline-block">
-            P
-            </ReactRevealText>
-            <ReactRevealText show={this.state.show}
-            style={{color: "white", fontSize: "18px", lineHeight: "36px"}}
-            className="d-inline-block">
-            ELINA 
-            </ReactRevealText>
+            <div className="row">
+              <div className="col">
+                <ReactRevealText show={this.state.show}
+                style={{color: 'rgb(13, 168, 240)', fontSize: "24px", lineHeight: "36px"}}
+                className="d-inline-block">
+                C
+                </ReactRevealText>
+                <ReactRevealText show={this.state.show}
+                style={{color: "white", fontSize: "24px", lineHeight: "36px"}}
+                className="d-inline-block">
+                AMERON 
+                </ReactRevealText>
+              </div>
+              <div className="col">
+                <ReactRevealText show={this.state.show}
+                style={{color: 'rgb(13, 168, 240)', fontSize: "24px", lineHeight: "36px"}}
+                className="d-inline-block">
+                P
+                </ReactRevealText>
+                <ReactRevealText show={this.state.show}
+                style={{color: "white", fontSize: "24px", lineHeight: "36px"}}
+                className="d-inline-block">
+                ELINA 
+                </ReactRevealText>
+              </div>
+            </div>
           </p>
         </div>
       </div>
