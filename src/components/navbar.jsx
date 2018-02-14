@@ -16,7 +16,8 @@ class NavBar extends Component {
   render() {
     return (
       <div>
-        <div className="navbar" className="text-white text-center">
+        <div className="navbar" className="text-white text-center"
+        style={{padding: '50px 0px'}}>
           <p className="navbar-brand">
             <ReactRevealText show={this.state.show}
             style={{color: 'rgb(13, 168, 240)', fontSize: "18px", lineHeight: "36px"}}

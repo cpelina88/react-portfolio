@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="container">
         <NavBar />
-        <hr/>
+        <hr style={{borderColor: 'white'}}/>
         <div>
         <Home />
         </div>
