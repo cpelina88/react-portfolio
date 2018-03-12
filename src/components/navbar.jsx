@@ -16,9 +16,9 @@ class NavBar extends Component {
   render() {
     return (
       <div>
-        <div className="navbar" className="text-white text-center"
+        <div className="text-white text-center"
         style={{padding: '50px 0px 30px'}}>
-          <p className="navbar-brand">
+          <div className="navbar-brand">
             <div className="row">
               <div className="col">
                 <ReactRevealText show={this.state.show}
@@ -45,7 +45,7 @@ class NavBar extends Component {
                 </ReactRevealText>
               </div>
             </div>
-          </p>
+          </div>
         </div>
       </div>
     )
